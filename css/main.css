@@ -11,7 +11,7 @@ html {
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  background-color: #444;
+  background-color: #ebecf2;
 }
 
 h2 {
@@ -181,6 +181,30 @@ header .fa-chevron-down {
 
 .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
   font-size: 26px;
+}
+
+.portfolio {
+  left: 0;
+}
+
+.portfolio .carousel-item {
+  position: relative;
+}
+
+.portfolio .caroisel-shadow {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.portfolio .container {
+  width: 60%;
+}
+
+.portfolio .underline {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1200px) {
