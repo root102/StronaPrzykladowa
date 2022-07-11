@@ -153,9 +153,45 @@ header .fa-chevron-down {
   color: royalblue;
 }
 
+.aboutus-hero {
+  position: relative;
+  color: #ddd;
+  background-image: url("../img/heroImgv2Big.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.aboutus-hero .shadow-hero2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-style: 36px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 26px;
+}
+
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutus-hero {
+    background-image: url("../img/heroImgv2.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */
