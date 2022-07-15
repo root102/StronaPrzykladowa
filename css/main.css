@@ -256,6 +256,97 @@ header .fa-chevron-down {
   text-decoration: none;
 }
 
+.team {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-image: url("/img/chairs-geb6a63858_1920.jpg");
+  background-attachment: fixed;
+}
+
+.team h2 {
+  color: white;
+}
+
+.team .card {
+  border: 0;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card:hover {
+  border: 0;
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.team i {
+  padding: 10px;
+  color: royalblue;
+}
+
+.team .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team .card-body {
+  height: 160px;
+}
+
+.teamShadow {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.achievementsAll .achievement {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.achievementsAll .achievement i {
+  font-size: 50px;
+}
+
+.contact {
+  position: relative;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-attachment: fixed;
+  background-image: url("../img/skyline-g0045f1ac2_1920.jpg");
+}
+
+.contact i {
+  padding: 0 15px;
+  color: white;
+}
+
+.contact .contact-shadow {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
