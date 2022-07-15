@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c1a0de3360.js" crossorigin="anonymous"></script>
     <title>ProGamers</title>
@@ -42,13 +43,14 @@
         <div class="hero-img">
             <div class="hero-shadow"></div>
             <div class="hero-text">
-                <h1>
+                <h1 data-aos="fade-up" data-aos-delay="200">
                     Witajcie w ProGamers
                 </h1>
-                <p> W miejscu gdzie gry tworzymy z pasją</p>
-                <a type="button" class="btn btn-outline-light" href="#aboutus">Poznaj nas</a>
+                <p data-aos="fade-up" data-aos-delay="400"> W miejscu gdzie gry tworzymy z pasją</p>
+                <a data-aos="fade-up" data-aos-delay="600" type="button" class="btn btn-outline-light"
+                    href="#aboutus">Poznaj nas</a>
             </div>
-            <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a> </i>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a> </i>
         </div>
     </header>
     <main>
@@ -380,6 +382,14 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slickSettings.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true,
+        });
+    </script>
     <script src="../js/script.js"></script>
 </body>
 
